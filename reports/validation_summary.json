@@ -1,0 +1,85 @@
+{
+  "source_video_sha256": "9cd008fefc4e1a87dc76c85d6424ca3e6c9e456e2265222630546fa9e31e1928",
+  "sample_video": {
+    "resolution": [
+      720,
+      1280
+    ],
+    "fps": 30,
+    "frames": 1486
+  },
+  "milestones": [
+    {
+      "floors": 46,
+      "height_m": 161,
+      "state": "leaning",
+      "lean_deg_approx": 4.8
+    },
+    {
+      "floors": 57,
+      "height_m": 200,
+      "state": "leaning",
+      "lean_deg_approx": 3.0
+    },
+    {
+      "floors": 69,
+      "height_m": 242,
+      "state": "stable",
+      "lean_deg_approx": 1.4
+    },
+    {
+      "floors": 76,
+      "height_m": 266,
+      "state": "stable",
+      "lean_deg_approx": 1.2
+    },
+    {
+      "floors": 121,
+      "height_m": 424,
+      "state": "stable",
+      "lean_deg_approx": 0.0
+    }
+  ],
+  "correction_commands": 75,
+  "remaining_miss_chances_at_121": 2,
+  "independent_game_trials": 1,
+  "unit_and_regression_tests": 15,
+  "vision_accuracy_note": "Four checked regression images; no independent dataset-wide recall or p95 location-accuracy claim.",
+  "capture_metrics_76_to_121": {
+    "frames": 14008,
+    "elapsed_s": 180.0149447999429,
+    "processed_fps": 77.81576143896051,
+    "processing_ms_median": 9.338549920357764,
+    "processing_ms_p95": 12.76969506870955,
+    "observed_landings": 45,
+    "calibration": {
+      "latency": 0.014490661208024974,
+      "gravity": 4082.838868204216,
+      "drift_ratio": 0.012401763072689895,
+      "bias_right": 2.7855004697701506,
+      "bias_left": 0.7778963994244568,
+      "samples": 115,
+      "latencies": [
+        0.01977638711115771,
+        0.009289175120241362,
+        0.023088677280276977,
+        0.020434304806843086,
+        0.00941710937682781,
+        0.002182443310911995,
+        0.004753604051719317,
+        0.014490661208024974,
+        0.010019227348010902,
+        0.014588654366773122,
+        0.013078644857467377,
+        0.019107176151330868,
+        0.017775529636909617,
+        0.013450629586125695,
+        0.02321837692831844
+      ],
+      "balance_response": 0.056869860859842254,
+      "balance_samples": 21
+    },
+    "error": null,
+    "score_note": "Observed landings are not a verified HUD score; inspect final screenshot."
+  }
+}

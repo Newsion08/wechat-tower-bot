@@ -1,0 +1,11 @@
+{
+  "source": "game_sample.mp4",
+  "frames": 1486,
+  "fps": 30.0,
+  "frames_with_block": 865,
+  "non_modal_frames": 1376,
+  "modal_frames": 110,
+  "processing_ms_median": 11.841399944387376,
+  "processing_ms_p95": 15.315549855586141,
+  "note": "Detection counts are not recall. Replay does not test counterfactual heights or live input latency."
+}
